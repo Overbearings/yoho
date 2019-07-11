@@ -72,6 +72,7 @@ export default {
   width: calc(100% - 160px);
   height: 100%;
   overflow-y: auto;
+  overflow: hidden;
 }
 .loading img {
   width: 100%;
@@ -131,9 +132,9 @@ export default {
   flex-wrap: wrap;
 }
 .shop li {
-  width: 45%;
+  width: 44%;
   list-style: none;
-  margin-left: 20px;
+  margin-left: 4%;
   background: white;
 }
 .shop img {

@@ -37,6 +37,7 @@ export default {
         color: white;
         letter-spacing: 0.2em;
         margin-top: 12px;
+        line-height: 80px;
 
     }
 

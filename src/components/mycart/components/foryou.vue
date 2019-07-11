@@ -33,6 +33,7 @@ export default {
         display: flex;
         flex-wrap: wrap;
         color: #444444;
+        margin-bottom: 100px;
     }
     .box1 h1 {
         width: 100%;
@@ -54,7 +55,6 @@ export default {
     .box1 ul li .p1 {
       font-size: 24px;
       padding: 6px 12px;
-      margin: 18px 0 12px 0;
       display: -webkit-box;
       -webkit-box-orient: vertical;
       -webkit-line-clamp: 2;
@@ -63,7 +63,7 @@ export default {
     }
     .box1 ul li .p2 {
       font-size: 24px;
-      padding: 0 12px;
+      padding: 6px 12px;
       font-weight: 600;
     }
 </style>

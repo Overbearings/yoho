@@ -1,13 +1,14 @@
 <template>
     <div>
+        <!-- 头 -->
         <MineNav></MineNav>
-
+        <!-- 登陆/注册 -->
         <MineBj></MineBj>
-
+        <!-- 购物通道 -->
         <MineOrder></MineOrder>
-
+        <!-- 我的订单 -->
         <MineFen></MineFen>
-
+        <!-- 优惠卷 -->
         <MineCen></MineCen>
 
         <div class="imgs1">
@@ -17,9 +18,9 @@
         <div class="imgs2">
           <img src="//img11.static.yhbimg.com/yhb-img01/2017/11/16/16/0170b0b5b96d1dc3cfd8a23599cc3eb425.jpg?imageView2/3/w/640/h/200/q/60" alt="">
         </div>
-
+        <!-- 为你优选 -->
         <MineLoop></MineLoop>
-
+        <!-- 底部 -->
         <Minebto></Minebto>
     </div>
 </template>

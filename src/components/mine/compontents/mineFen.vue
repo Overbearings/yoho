@@ -54,6 +54,7 @@ export default {
                     }
                 }
                 span{
+                    font-size: 28px;
                     text-align: center;
                     text-align: 60px;
                     display: block;

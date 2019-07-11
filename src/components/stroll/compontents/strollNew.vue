@@ -2,9 +2,9 @@
   <!-- 轮播图 -->
   <div class="bott">
     <div v-if="strzx && strzx.length > 0">
-      <swiper style="height:360px;" :options="swiperOption">
+      <swiper style="height:200px;" :options="swiperOption">
         <swiper-slide v-for="(slide, index) in strzx" :key="index">
-          <img style="width:100%;height:360px;" :src="slide" alt />
+          <img style="width:100%;height:200px;" :src="slide" alt />
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
       </swiper>
@@ -44,7 +44,7 @@ export default {
     this.$nextTick(() => {
       this.strobl.forEach((stb, index) => {
         if (stb.child) {
-          var liWidth = this.$refs.myli[0].offsetWidth
+          var liWidth = this.$refs.myli[0].offsetWidth + 1
           var width = liWidth * stb.child.length
           this.$refs.myul[index].style.width = width + 'px'
         }

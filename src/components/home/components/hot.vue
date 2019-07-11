@@ -34,7 +34,7 @@ export default {
       padding: 20px 0;
       h2{
         color: #000;
-        font-size: 30PX;
+        font-size: 40px;
         text-align: center;
       }
     }

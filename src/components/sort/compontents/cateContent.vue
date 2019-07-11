@@ -30,7 +30,7 @@ export default {
 
 <style scoped lang="less">
 .c-content{
-    height: calc(100% - 272px);
+    height: calc(100% - 200px);
     overflow: hidden;
     display: flex;
 }

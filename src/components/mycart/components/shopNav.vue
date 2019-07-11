@@ -36,6 +36,7 @@ export default {
 </script>
 
 <style scoped>
+
     .box1 {
         width: 100%;
         height: 104px;
@@ -101,7 +102,7 @@ export default {
     }
     .box3 p {
         display: block;
-        font-size: .6rem;
+        font-size: .4rem;
         text-align: center;
         color: #444;
         padding: 40px 0;
@@ -111,10 +112,10 @@ export default {
         height: 50px;
         background: #444;
         border: 2px solid #505050;
-        border-radius: 10PX;
+        border-radius: 10px;
         color: #fff;
         margin: 0 auto;
-        font-size: .6rem;
+        font-size: .3rem;
         text-align: center;
         line-height: 50px;
         text-decoration: none;

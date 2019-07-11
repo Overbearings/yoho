@@ -32,7 +32,7 @@ export default {
     this.$nextTick(() => {
       this.strodp.forEach((stb, index) => {
         if (stb.child) {
-          var liWidth = this.$refs.myli[0].offsetWidth
+          var liWidth = this.$refs.myli[0].offsetWidth + 1
           var width = liWidth * stb.child.length
           this.$refs.myul[index].style.width = width + 'px'
         }

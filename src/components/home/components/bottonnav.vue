@@ -59,12 +59,11 @@ export default {
   }
 }
 .copy{
-  height: 120px;
     background-color: #eee;
     color: #666;
     font-size: 28px;
-    height: 120PX;
-    line-height: 120PX;
+    height: 80PX;
+    line-height: 80PX;
     text-align: center;
 }
 </style>

@@ -63,7 +63,7 @@ export default {
 }
 .popul h2 {
     color: #000;
-    font-size: 30PX;
+    font-size: 40px;
     height: 92px;
     text-align: center;
     line-height: 92px;
