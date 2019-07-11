@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/components/home/home'
+import Tx from '@/components/home/hothome/Tshirt'
+
 import Mycart from '@/components/mycart/mycart'
 import Stroll from '@/components/stroll/stroll'
 import Mine from '@/components/mine/mine'
@@ -140,6 +142,11 @@ const routes = [
     path: '/account',
     name: 'Account',
     component: Account
+  },
+  {
+    path: '/tx',
+    name: 'Tx',
+    component: Tx
   }
 ]
 
