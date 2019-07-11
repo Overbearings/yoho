@@ -86,3 +86,6 @@ export function getCateListright5 () {
 export function getCateListright6 () {
   return axios.get('cateListright6')
 }
+export function getCateTx () {
+  return axios.get('cateTx')
+}
