@@ -1,7 +1,7 @@
  <template>
   <div class="loading">
     <img
-      src="//img11.static.yhbimg.com/yhb-img01/2019/06/27/16/01b191a3ec55edf9cec55438e0c57f3558.jpg?imageView2/2/w/640/h/240/q/60"
+      src="//img11.static.yhbimg.com/yhb-img01/2019/07/08/15/0136e28cb8e7a472009a9e5422ad07eb6c.jpg?imageView2/2/w/640/h/240/q/60"
       alt
     />
     <div class="jies">
@@ -36,7 +36,7 @@
   </div>
 </template>
 <script>
-import { getCateListright } from '@/api'
+import { getCateListright4 } from '@/api'
 export default {
   data () {
     return {
@@ -48,7 +48,7 @@ export default {
     }
   },
   async created () {
-    this.MsListright = await getCateListright()
+    this.MsListright = await getCateListright4()
   },
   methods: {
     isShow () {
@@ -66,7 +66,6 @@ export default {
   width: calc(100% - 160px);
   height: 100%;
   overflow-y: auto;
-  margin: 0;
 }
 .loading img {
   width: 100%;
@@ -76,7 +75,6 @@ export default {
 .jies {
   width: 100%;
   height: 160px;
-  margin: 20px;
   .zhuanq {
     width: 100%;
     ul {
@@ -89,7 +87,7 @@ export default {
         background: #ffffff;
         border-radius: 10px;
         &:first-child{
-          margin-right: 3%;
+          margin: 3% 3% 0 3%;
         }
         p{
           line-height: 120px;

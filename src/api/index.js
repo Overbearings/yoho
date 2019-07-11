@@ -68,6 +68,21 @@ export function getForyou () {
 export function getCateListright () {
   return axios.get('cateListright')
 }
-export function getCateTx () {
-  return axios.get('cateTx')
+export function getCateListright1 () {
+  return axios.get('cateListright1')
+}
+export function getCateListright2 () {
+  return axios.get('cateListright2')
+}
+export function getCateListright3 () {
+  return axios.get('cateListright3')
+}
+export function getCateListright4 () {
+  return axios.get('cateListright4')
+}
+export function getCateListright5 () {
+  return axios.get('cateListright5')
+}
+export function getCateListright6 () {
+  return axios.get('cateListright6')
 }
