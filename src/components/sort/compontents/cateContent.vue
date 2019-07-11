@@ -44,6 +44,7 @@ export default {
         width: 160px;
         height: 90px;
         text-align: center;
+        font-size: 30px;
         line-height: 90px;
         list-style: none;
         text-decoration: none;

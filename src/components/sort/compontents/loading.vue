@@ -24,19 +24,13 @@
     </div>
     <div class="zhonglei">
       <img src="../imgs/henggang.png" alt />
-      <span>猜你喜欢</span>
+      <span>分类</span>
       <img src="../imgs/henggang.png" alt />
     </div>
     <ul class="shop">
       <li v-for="(product,index) in MsListright" :key="index">
         <img :src="product.img" alt />
-        <div class="title">
           <p>{{product.title}}</p>
-          <div class="price">
-            <span>￥{{product.price}}</span>
-            <h4>￥{{product.noprice}}</h4>
-          </div>
-        </div>
       </li>
     </ul>
   </div>
@@ -72,11 +66,12 @@ export default {
   width: calc(100% - 160px);
   height: 100%;
   overflow-y: auto;
-  overflow: hidden;
+  margin: 0;
 }
 .loading img {
   width: 100%;
-  height: 220px;
+  height: 240px;
+
 }
 .jies {
   width: 100%;
@@ -109,11 +104,12 @@ export default {
     }
   }
 }
+
 .zhonglei {
   text-align: center;
   width: 94%;
   background: white;
-  margin: 0 20px 20px 20px;
+  margin: 0 20px 10px 20px;
 }
 
 .zhonglei img {
@@ -122,8 +118,8 @@ export default {
 }
 .zhonglei span {
   font-size: 36px;
-  height: 100px;
-  line-height: 100px;
+  height: 80px;
+  line-height: 80px;
 }
 .shop {
   width: 100%;
@@ -131,42 +127,23 @@ export default {
   flex-wrap: wrap;
 }
 .shop li {
-  width: 44%;
+  width: calc(88%/3);
+  height: 300px;
   list-style: none;
-  margin-left: 4%;
-  background: white;
+  margin-left: 3%;
 }
 .shop img {
-  height: 360px;
+  width: 80%;
+  margin-left: 10%;
+  height: 160px;
+  border-radius: 50%;
 }
-.title {
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 20px;
-}
-.title p {
-  display: inline-block;
+.shop p {
   height: 60px;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  font-size: 24px;
+  text-align: center;
+  font-size: 34px;
   color: #444;
+  padding-top: 30px;
 }
-.title span {
-  display: inline-block;
-  color: #d62927;
-  font-size: 24px;
-}
-.title h4 {
-  display: inline-block;
-  color: #666;
-  font-size: 20px;
-  text-decoration: line-through #444;
-}
-.price {
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
+
 </style>
