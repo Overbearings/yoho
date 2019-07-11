@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/components/home/home'
 import Tx from '@/components/home/hothome/Tshirt'
+import Coupon from '@/components/home/hothome/coupon'
 
 import Mycart from '@/components/mycart/mycart'
 import Stroll from '@/components/stroll/stroll'
@@ -153,6 +154,11 @@ const routes = [
     path: '/tx',
     name: 'Tx',
     component: Tx
+  },
+  {
+    path: '/coupon',
+    name: 'Coupon',
+    component: Coupon
   }
 ]
 
