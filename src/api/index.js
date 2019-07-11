@@ -68,3 +68,6 @@ export function getForyou () {
 export function getCateListright () {
   return axios.get('cateListright')
 }
+export function getCateTx () {
+  return axios.get('cateTx')
+}

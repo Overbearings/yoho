@@ -7,7 +7,10 @@
 
           <ul>
             <li v-for="(pic,index) in pdlist" :key="index">
-              <img :src="pic.imgurl" alt="">
+              <router-link :to="{path: pic.href}">
+                 <img :src="pic.imgurl" alt="">
+              </router-link>
+
             </li>
           </ul>
         </div>
