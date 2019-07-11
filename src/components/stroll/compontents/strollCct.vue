@@ -25,9 +25,7 @@
 </template>
 
 <script>
-
 import {getStrDp} from '@/api'
-
 export default {
   async created () {
     this.strodp = await getStrDp()
