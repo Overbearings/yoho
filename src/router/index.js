@@ -22,7 +22,6 @@ import Loading3 from '@/components/sort/compontents/loading3'
 import Loading4 from '@/components/sort/compontents/loading4'
 import Loading5 from '@/components/sort/compontents/loading5'
 import Loading6 from '@/components/sort/compontents/loading6'
-import Loading7 from '@/components/sort/compontents/loading7'
 
 Vue.use(VueRouter)
 
@@ -115,11 +114,6 @@ const routes = [
         path: 'loading6',
         name: 'Loading6',
         component: Loading6
-      },
-      {
-        path: 'loading7',
-        name: 'Loading7',
-        component: Loading7
       }
     ]
   },
