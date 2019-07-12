@@ -62,8 +62,8 @@ export default {
     background-color: #eee;
     color: #666;
     font-size: 28px;
-    height: 80PX;
-    line-height: 80PX;
+    height: 80px;
+    line-height: 80px;
     text-align: center;
 }
 </style>

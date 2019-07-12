@@ -23,7 +23,7 @@ import Loading4 from '@/components/sort/compontents/loading4'
 import Loading5 from '@/components/sort/compontents/loading5'
 import Loading6 from '@/components/sort/compontents/loading6'
 import Loading7 from '@/components/sort/compontents/loading7'
-
+import Search from '@/components/home/components/search'
 Vue.use(VueRouter)
 
 // 1.定义路由表
@@ -146,6 +146,11 @@ const routes = [
     path: '/account',
     name: 'Account',
     component: Account
+  },
+  {
+    path: '/search',
+    name: 'Search',
+    component: Search
   }
 ]
 
