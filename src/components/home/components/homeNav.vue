@@ -4,7 +4,9 @@
         <div class="logo">
             <img src="../imgs/yohobuy_h.png" alt="">
         </div>
+        <router-link to="/search">
         <img src="../imgs/sousuo.png" alt="">
+        </router-link>
     </div>
 </template>
 <script>
