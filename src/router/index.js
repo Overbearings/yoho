@@ -7,6 +7,8 @@ import Coupon from '@/components/home/hothome/coupon'
 import Mycart from '@/components/mycart/mycart'
 import Stroll from '@/components/stroll/stroll'
 import Mine from '@/components/mine/mine'
+import Custom from '@/components/mine/custom'
+
 import Logon from '@/components/logon/logon'
 import Enroll from '@/components/logon/enroll'
 import Account from '@/components/logon/account'
@@ -158,7 +160,13 @@ const routes = [
     path: '/coupon',
     name: 'Coupon',
     component: Coupon
+  },
+  {
+    path: '/custom',
+    name: 'Custom',
+    component: Custom
   }
+
 ]
 
 // 2.导出路由

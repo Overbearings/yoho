@@ -39,6 +39,9 @@ export function getOrderFen () {
 export function getMineCen () {
   return axios.get('orderCen')
 }
+export function getCusTom () {
+  return axios.get('cusTom')
+}
 export function getOrderLoop () {
   return axios.get('orderLoop')
 }

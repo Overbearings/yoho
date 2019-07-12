@@ -1,7 +1,9 @@
 <template>
   <div class="bj">
     <div>
-      <p>登陆/注册</p>
+      <router-link to='/logon'>
+        <p>登陆/注册</p>
+      </router-link>
     </div>
   </div>
 </template>
