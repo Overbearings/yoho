@@ -1,5 +1,6 @@
 import axios from 'axios'
-axios.defaults.baseURL = 'http://127.0.0.1:3000/api/'
+axios.defaults.baseURL = 'http://127.0.0.1:8080/api/'
+// axios.defaults.baseURL = 'http://f342c1bf.ngrok.io/api/'
 // 对返回的数据进行拦截
 axios.interceptors.response.use(function (response) {
   // 返回response.data
@@ -26,9 +27,6 @@ export function getHuadong () {
 export function getBotpic () {
   return axios.get('botpic')
 }
-export function getCateList () {
-  return axios.get('cateList')
-}
 export function getHotBanner () {
   return axios.get('hotBanner')
 }
@@ -40,6 +38,9 @@ export function getOrderFen () {
 }
 export function getMineCen () {
   return axios.get('orderCen')
+}
+export function getCusTom () {
+  return axios.get('cusTom')
 }
 export function getOrderLoop () {
   return axios.get('orderLoop')
@@ -89,6 +90,11 @@ export function getCateListright6 () {
 export function getCateTx () {
   return axios.get('cateTx')
 }
+<<<<<<< HEAD
 export function getWangGuan () {
   return axios.get('wangguan')
+=======
+export function getZiXun () {
+  return axios.get('ziXun')
+>>>>>>> ccb4b2dba2ad9d8039227c5be0ec91eefe1fb155
 }

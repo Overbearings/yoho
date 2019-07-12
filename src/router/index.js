@@ -7,6 +7,8 @@ import Coupon from '@/components/home/hothome/coupon'
 import Mycart from '@/components/mycart/mycart'
 import Stroll from '@/components/stroll/stroll'
 import Mine from '@/components/mine/mine'
+import Custom from '@/components/mine/custom'
+
 import Logon from '@/components/logon/logon'
 import Enroll from '@/components/logon/enroll'
 import Account from '@/components/logon/account'
@@ -161,9 +163,15 @@ const routes = [
     component: Coupon
   },
   {
+<<<<<<< HEAD
     path: '/hotselling',
     name: 'Hotselling',
     component: Hotselling
+=======
+    path: '/custom',
+    name: 'Custom',
+    component: Custom
+>>>>>>> ccb4b2dba2ad9d8039227c5be0ec91eefe1fb155
   }
 
 ]

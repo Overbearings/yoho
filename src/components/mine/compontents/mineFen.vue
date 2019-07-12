@@ -2,13 +2,13 @@
   <div class="odf">
       <div>
           <ul>
-              <li v-for="(odf,index) in ordFen" :key="index">
+              <router-link tag="li" v-for="(odf,index) in ordFen" :key="index" :to="{path:odf.href}">
                   <div v-if="odf.imgs">
                       <img :src="odf.imgs" alt="">
                   </div>
                   <span v-if="odf.cs">{{odf.cs}}</span>
                   <p>{{odf.fentitle}}</p>
-              </li>
+              </router-link>
           </ul>
       </div>
   </div>
