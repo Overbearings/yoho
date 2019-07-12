@@ -20,12 +20,9 @@ export default {
     this.$nextTick(() => {
       // 获取li的宽度
       var liWidth = this.$refs.myli[0].offsetWidth + 1
-      console.log(liWidth)
       // productList.length是总共的li长度  因为li数据都在productList数组中
       var width = liWidth * this.productList.length
-      console.log(width)
       this.$refs.myul.style.width = width + 'px'
-      console.log(this.$refs.myul.offsetWidth)
     })
   },
   data () {

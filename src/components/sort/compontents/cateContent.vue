@@ -9,8 +9,6 @@
             <router-link to="/sort/loading4" tag="li">裙装</router-link>
             <router-link to="/sort/loading5" tag="li">服配</router-link>
             <router-link to="/sort/loading6" tag="li">有玩</router-link>
-            <router-link to="/sort/loading7" tag="li">有食</router-link>
-            <router-link to="/sort/loading8" tag="li">创意生活</router-link>
           </ul>
 
       </div>

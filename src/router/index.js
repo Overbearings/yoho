@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/components/home/home'
+import Tx from '@/components/home/hothome/Tshirt'
+import Coupon from '@/components/home/hothome/coupon'
+
 import Mycart from '@/components/mycart/mycart'
 import Stroll from '@/components/stroll/stroll'
 import Mine from '@/components/mine/mine'
@@ -22,8 +25,7 @@ import Loading3 from '@/components/sort/compontents/loading3'
 import Loading4 from '@/components/sort/compontents/loading4'
 import Loading5 from '@/components/sort/compontents/loading5'
 import Loading6 from '@/components/sort/compontents/loading6'
-import Loading7 from '@/components/sort/compontents/loading7'
-import Search from '@/components/home/components/search'
+import Search from '@/components/home/components/search.vue'
 Vue.use(VueRouter)
 
 // 1.定义路由表
@@ -115,11 +117,6 @@ const routes = [
         path: 'loading6',
         name: 'Loading6',
         component: Loading6
-      },
-      {
-        path: 'loading7',
-        name: 'Loading7',
-        component: Loading7
       }
     ]
   },
