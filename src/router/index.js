@@ -148,6 +148,16 @@ const routes = [
     path: '/search',
     name: 'Search',
     component: Search
+  },
+  {
+    path: '/tx',
+    name: 'Tx',
+    component: Tx
+  },
+  {
+    path: '/coupon',
+    name: 'Coupon',
+    component: Coupon
   }
 ]
 
