@@ -89,3 +89,6 @@ export function getCateListright6 () {
 export function getCateTx () {
   return axios.get('cateTx')
 }
+export function getWangGuan () {
+  return axios.get('wangguan')
+}

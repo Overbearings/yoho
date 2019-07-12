@@ -26,6 +26,7 @@ import Loading4 from '@/components/sort/compontents/loading4'
 import Loading5 from '@/components/sort/compontents/loading5'
 import Loading6 from '@/components/sort/compontents/loading6'
 import Search from '@/components/home/components/search.vue'
+import Hotselling from '@/components/home/components/hotselling.vue'
 Vue.use(VueRouter)
 
 // 1.定义路由表
@@ -148,7 +149,23 @@ const routes = [
     path: '/search',
     name: 'Search',
     component: Search
+  },
+  {
+    path: '/tx',
+    name: 'Tx',
+    component: Tx
+  },
+  {
+    path: '/coupon',
+    name: 'Coupon',
+    component: Coupon
+  },
+  {
+    path: '/hotselling',
+    name: 'Hotselling',
+    component: Hotselling
   }
+
 ]
 
 // 2.导出路由

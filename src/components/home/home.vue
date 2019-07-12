@@ -19,7 +19,9 @@
       </div>
 
       <div class="populpic">
+        <router-link to="/Hotselling">
         <img src="//img10.static.yhbimg.com/yhb-img01/2019/04/08/15/01a1b6d4b1618b3f8860cfc1244e8ac857.jpg?imageView2/2/w/640/h/200/q/90" alt="">
+        </router-link>
       </div>
 
       <Popul></Popul>

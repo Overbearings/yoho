@@ -72,9 +72,6 @@ export default {
 </script>
 
 <style scoped lang="less">
-body{
-    background: #fff;
-}
 .search {
   width: 100%;
   height: 100px;

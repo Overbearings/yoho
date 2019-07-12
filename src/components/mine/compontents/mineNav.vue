@@ -1,6 +1,6 @@
 <template>
     <div class="sort">
-        <img src="../imgs/zuojiantou.png" alt="">
+        <img src="../imgs/zuojiantou.png" alt="" >
         <div class="logo">
             <h2>个人中心</h2>
         </div>
