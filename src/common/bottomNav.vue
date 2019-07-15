@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="botnav">
         <ul class="nav">
             <router-link tag="li" to="/home">
                 <i class="iconfont icon-shouye"></i>

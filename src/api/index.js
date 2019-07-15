@@ -89,3 +89,12 @@ export function getCateListright6 () {
 export function getCateTx () {
   return axios.get('cateTx')
 }
+export function getGood () {
+  return axios.get('good')
+}
+export function getGoods () {
+  return axios.get('goods')
+}
+export function getGoodpic () {
+  return axios.get('goodpic')
+}

@@ -1,6 +1,9 @@
 <template>
     <div class="search">
-        <img src="../imgs/fenlei.png" alt="">
+        <router-link to="/shou">
+            <img src="../imgs/fenlei.png" alt="">
+        </router-link>
+
         <div class="logo">
             <img src="../imgs/yohobuy_h.png" alt="">
         </div>

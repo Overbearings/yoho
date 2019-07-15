@@ -2,10 +2,13 @@
   <div class="mspro">
       <ul class="product" ref="myul">
           <li ref="myli" v-for="(book, index) in productList" :key="index">
+            <router-link :to='{ path: book.url }'>
               <img :src="book.img" alt="">
               <p class="price">￥{{book.price}}</p>
               <p class="num">{{book.num}}</p>
               <P class="browse">{{book.browse}}</P>
+            </router-link>
+
           </li>
       </ul>
     </div>
@@ -58,6 +61,9 @@ export default {
             // box-sizing: border-box;
             //顶部对齐
             vertical-align: top;
+            a{
+              text-decoration: none;
+            }
             img {
             width: 100%;
             }

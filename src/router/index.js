@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '@/components/home/home'
 import Tx from '@/components/home/hothome/Tshirt'
 import Coupon from '@/components/home/hothome/coupon'
+import Shou from '@/components/home/hothome/shou'
+import Goods from '@/components/home/hothome/goods'
 
 import Mycart from '@/components/mycart/mycart'
 import Stroll from '@/components/stroll/stroll'
@@ -153,7 +155,18 @@ const routes = [
     path: '/coupon',
     name: 'Coupon',
     component: Coupon
+  },
+  {
+    path: '/shou',
+    name: 'Shou',
+    component: Shou
+  },
+  {
+    path: '/goods',
+    name: 'Goods',
+    component: Goods
   }
+
 ]
 
 // 2.导出路由
