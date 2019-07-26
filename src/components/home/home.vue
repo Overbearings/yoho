@@ -11,7 +11,9 @@
       <Hot></Hot>
       <!-- 广告图 -->
       <div class="banner">
-        <img src="//img10.static.yhbimg.com/yhb-img01/2017/11/16/14/01f28721040918d34d66531cb1c4b88efe.jpg?imageView2/3/w/640/h/200/q/60" alt="">
+        <router-link to='/coupon'>
+          <img src="//img10.static.yhbimg.com/yhb-img01/2017/11/16/14/01f28721040918d34d66531cb1c4b88efe.jpg?imageView2/3/w/640/h/200/q/60" alt="">
+        </router-link>
       </div>
 
       <div class="popul">
@@ -19,7 +21,9 @@
       </div>
 
       <div class="populpic">
+        <router-link to="/hotselling">
         <img src="//img10.static.yhbimg.com/yhb-img01/2019/04/08/15/01a1b6d4b1618b3f8860cfc1244e8ac857.jpg?imageView2/2/w/640/h/200/q/90" alt="">
+        </router-link>
       </div>
 
       <Popul></Popul>

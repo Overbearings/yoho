@@ -2,13 +2,16 @@
   <div class="pc">
       <ul>
           <li v-for="(pc,index) in pail" :key="index">
-              <div>
+              <router-link :to="{path:pc.href}">
+                   <div>
                   <img :src="pc.img1" alt="">
               </div>
               <p>
                   {{pc.centitle}}
                   <img :src="pc.imgs" alt="">
               </p>
+              </router-link>
+
           </li>
       </ul>
     </div>
@@ -45,24 +48,27 @@ export default {
             &:first-child{
                 border-bottom: 2px solid #e0e0e0;
             }
-            div{
-                width: 48px;
-                height: 44px;
-                padding: 16px 24px 12px 16px;
-                float: left;
-                img{
-                    width: 100%;
+            a{
+                text-decoration: none;
+                color: #333;
+                div{
+                    width: 48px;
+                    height: 44px;
+                    padding: 16px 24px 12px 16px;
+                    float: left;
+                    img{
+                        width: 100%;
+                    }
                 }
-            }
-            p{
-                line-height: 88px;
-                font-size: 30px;
-                img{
-                    float: right;
-                    width: 80px;
-                    height: 80px;
+                p{
+                    line-height: 88px;
+                    font-size: 28px;
+                    img{
+                        float: right;
+                        width: 80px;
+                        height: 80px;
+                    }
                 }
-
             }
         }
     }

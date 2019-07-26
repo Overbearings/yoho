@@ -14,7 +14,7 @@
       <div class="box3">
           <img src="../imgs/car.png" alt="">
           <p>您的购物车暂无商品</p>
-          <router-link to="/home" href="#">随便逛逛</router-link>
+          <router-link to="/hotselling" href="#">随便逛逛</router-link>
       </div>
   </div>
 </template>

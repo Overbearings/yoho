@@ -9,6 +9,8 @@ import Goods from '@/components/home/hothome/goods'
 import Mycart from '@/components/mycart/mycart'
 import Stroll from '@/components/stroll/stroll'
 import Mine from '@/components/mine/mine'
+import Custom from '@/components/mine/custom'
+
 import Logon from '@/components/logon/logon'
 import Enroll from '@/components/logon/enroll'
 import Account from '@/components/logon/account'
@@ -27,7 +29,8 @@ import Loading3 from '@/components/sort/compontents/loading3'
 import Loading4 from '@/components/sort/compontents/loading4'
 import Loading5 from '@/components/sort/compontents/loading5'
 import Loading6 from '@/components/sort/compontents/loading6'
-
+import Search from '@/components/home/components/search.vue'
+import Hotselling from '@/components/home/components/hotselling.vue'
 Vue.use(VueRouter)
 
 // 1.定义路由表
@@ -147,6 +150,11 @@ const routes = [
     component: Account
   },
   {
+    path: '/search',
+    name: 'Search',
+    component: Search
+  },
+  {
     path: '/tx',
     name: 'Tx',
     component: Tx
@@ -165,8 +173,17 @@ const routes = [
     path: '/goods',
     name: 'Goods',
     component: Goods
+  },
+  {
+    path: '/custom',
+    name: 'Custom',
+    component: Custom
+  },
+  {
+    path: '/hotselling',
+    name: 'Hotselling',
+    component: Hotselling
   }
-
 ]
 
 // 2.导出路由

@@ -3,7 +3,10 @@
     <div class="pll">
       <ul>
         <li v-for="(book, index) in productList" :key="index">
-          <img :src="book.imgs" alt>
+          <router-link :to="{path:book.url}">
+            <img :src="book.imgs" alt>
+          </router-link>
+
         </li>
       </ul>
     </div>
